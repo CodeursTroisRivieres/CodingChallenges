@@ -1,22 +1,21 @@
 ﻿//https://coderbyte.com/information/First%20Reverse
 
 using System;
+using System.Collections.Generic;
+using System.Linq;
 
 class MainClass
 {
-
-    public static string FirstReverse(string str)
-    {
-
-        // code goes here  
-        return str;
-
-    }
-
     static void Main()
     {
-        // keep this function call here
-        Console.WriteLine(FirstReverse(Console.ReadLine()));
+        string toReverse = Console.ReadLine();
+        Console.WriteLine(Reverse(toReverse));
     }
 
+    public static string Reverse(string toReverse)
+    {
+        List<char> list = toReverse.ToList();
+        list.Reverse();
+        return new string(list.ToArray());
+    }
 }
