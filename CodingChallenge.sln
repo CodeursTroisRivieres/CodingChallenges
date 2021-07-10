@@ -9,7 +9,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alphabet-Soup", "Alphabet-S
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClosestEnemy", "ClosestEnemy\ClosestEnemy.csproj", "{1EEE7CBE-C239-4652-BF40-435231C00A71}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rot13", "Rot13\Rot13.csproj", "{B0CF6628-85CE-4EC5-8D8B-33E05D6BD879}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Rot13", "Rot13\Rot13.csproj", "{B0CF6628-85CE-4EC5-8D8B-33E05D6BD879}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ColouredTriangles", "ColouredTriangles\ColouredTriangles.csproj", "{968120A8-A22E-48F2-87D8-E508D9678FE9}"
+EndProject
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +36,10 @@ Global
 		{B0CF6628-85CE-4EC5-8D8B-33E05D6BD879}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0CF6628-85CE-4EC5-8D8B-33E05D6BD879}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0CF6628-85CE-4EC5-8D8B-33E05D6BD879}.Release|Any CPU.Build.0 = Release|Any CPU
+		{968120A8-A22E-48F2-87D8-E508D9678FE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{968120A8-A22E-48F2-87D8-E508D9678FE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{968120A8-A22E-48F2-87D8-E508D9678FE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{968120A8-A22E-48F2-87D8-E508D9678FE9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
